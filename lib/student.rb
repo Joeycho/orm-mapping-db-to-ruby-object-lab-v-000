@@ -68,7 +68,7 @@ class Student
 
 
 
-  def self.first_X_students_in_grade_10(name)
+  def self.first_X_students_in_grade_10(x)
     # find the student in the database given a name
     # return a new instance of the Student class
     sql = <<-SQL
